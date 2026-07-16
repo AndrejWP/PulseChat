@@ -1,2 +1,26 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Build results
+dist/
+**/dist/
+coverage/
+
+# Tests and temporary files
+test-results/
+playwright-report/
+tmp/
+*.log
+
+# Generated submission materials
+artifacts/
+
+# macOS
 .DS_Store
 __MACOSX/
