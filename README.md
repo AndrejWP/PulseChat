@@ -14,8 +14,7 @@ React + Vite ── REST / Socket.IO ── NestJS + TypeORM ── PostgreSQL
 - `frontend/` - React, Router, Axios и socket.io-client;
 - `docs/` - отчёт, модели, диаграммы и материалы защиты;
 - `scripts/` - SQL-примеры и служебные скрипты;
-- `artifacts/` - презентация, PDF-отчёт, архивы и демонстрационные видео.
-
+  
 ## Возможности
 
 - регистрация, вход и `GET /api/auth/me`;
